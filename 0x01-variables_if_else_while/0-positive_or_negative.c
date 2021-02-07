@@ -1,8 +1,11 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
-/* more headers goes there main - dsad*/
-/**/
-/* betty style doc for function main goes there */
+/**
+ * main - prints asdasdasd asdasdasd asdasd
+ *
+ * Return: int
+ */
 int main(void)
 {
 int n;
@@ -12,13 +15,11 @@ if (n > 0)
 {
 printf("is positive");
 }
-else if (n == 0)
-{
+if
+(n == 0)
 printf("is zero");
-}
-else if (n < 0)
-{
+else if
+(n < 0)
 printf("is negative");
-}
 return (0);
 }
