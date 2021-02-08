@@ -11,7 +11,6 @@ for (min = 'a' ; min <= 'z' ; min++)
 {
 putchar(min);
 }
-putchar ('\n');
 for (may = 'A' ; may <= 'Z' ; may++)
 {
 putchar(may);
