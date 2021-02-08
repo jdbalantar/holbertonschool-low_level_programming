@@ -1,21 +1,14 @@
 #include <stdio.h>
 /**
- * main - print
+ * main - 6.Numberz
  *
- *Return: int
+ * Return: int
  */
 int main(void)
 {
-char alfa;
-for (alfa = 'a' ; alfa <= 'z' ; alfa++)
-{
-putchar(alfa);
-}
-putchar('\n');
+int base;
+for (base = 0; base <= 9; base++)
+putchar (base + '0');
+putchar ('\n');
 return (0);
 }
-
-
-
-
-
