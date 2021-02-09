@@ -1,0 +1,15 @@
+includeitdio.h>
+/**
+ * main - prints 
+ *
+ *Return: int
+ */
+int main ()
+{
+  char alfa;
+  for(alfa = 'a' ; alfa <= 'z' ; alfa++)
+    {
+      putchar(alfa);
+    }
+  return(0);
+}
