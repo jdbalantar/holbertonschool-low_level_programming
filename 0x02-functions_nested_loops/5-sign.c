@@ -1,9 +1,11 @@
 #include "holberton.h"
+
 /**
  * print_sign - print sign for number
  * Return: int
  * @n: input character
  */
+
 int print_sign(int n)
 {
 
@@ -17,7 +19,7 @@ int print_sign(int n)
                 _putchar('0');
                 return (0);
         }
-        else if (n < 1)
+        else
         {
                 _putchar('-');
                 return (-1);
