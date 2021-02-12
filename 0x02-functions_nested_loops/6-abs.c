@@ -4,21 +4,18 @@
 /**
  * _abs - print absolute value
  * Return: int
- * @a: input character
+ * @x: input character
  */
 
-int _abs(int a)
+int _abs(int x)
 {
-	int a, d, r;
-	if (a < 0)
+	if (x < 0)
 
 	{
-		d = a * 2;
-		r = ((a - d));
-		return (r);
+		return(-x);
 	}
-	else if (a >= 0)
+	else if (x >= 0)
 	{
-		return(a);
+		return(x);
 	}
 }
