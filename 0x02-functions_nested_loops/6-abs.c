@@ -7,14 +7,14 @@
  * @x: input character
  */
 
-int _abs(int a)
+int _abs(int x)
 {
-	if (a >= 0)
+	if (x >= 0)
 	{
-		return (a);
+		return (x);
 	}
 	else
 	{
-		return (-a);
+		return (-x);
 	}
 }
