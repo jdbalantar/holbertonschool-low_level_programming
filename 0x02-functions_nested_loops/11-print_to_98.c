@@ -29,7 +29,7 @@ void print_to_98(int n)
 	{
 		for (c = n; c >= 0; c--)
 		{
-			printf("%d ", c);
+			printf("%d", c);
 			if (c != 98)
 			{
 				printf(", ");
