@@ -2,7 +2,7 @@
 
 /**
  * main - causes an infinite loop
- * Return: int
+ * Return: 0
  * dont delete it!
  */
 
