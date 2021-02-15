@@ -20,7 +20,7 @@ int largest_number(int a, int b, int c)
 	}
 	else
 	{
-		nargest = c;
+		n = c;
 	}
 	return (n);
 }
