@@ -9,15 +9,15 @@
 int main(void)
 {
 	int a, b, c;
-	int l;
+	int largest;
 
 	a = 972;
 	b = -98;
 	c = 0;
 
-	l = a, b, c;
+	largest = a, b, c;
 
-	printf("%d is the largest number\n", l);
+	printf("%d is the largest number\n", largest);
 
 	return (0);
 }
