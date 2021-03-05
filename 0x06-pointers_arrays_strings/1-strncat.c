@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * *_strncat - function that concatenates two strings.
- * @dest: Pointer receives data from src
- * @src: pontter that send data from dest
+ * @dest: external input
+ * @src: external input
  * @n: n cant of data
  * Return:char
  */
