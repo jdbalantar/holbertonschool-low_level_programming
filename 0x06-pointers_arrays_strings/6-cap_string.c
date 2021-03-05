@@ -6,23 +6,22 @@
  */
 char *cap_string(char *s)
 {
-int i = 0, j;
-int sspdr = 13;
+	int x = 0, y = 0, sep = 13;
 
-char p[] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
+char carac[] = {' ', '\t', '\n', ',', ';', '.', '!',
+	     '?', '"', '(', ')', '{', '}'};
 
-	while (s[i])
+	while (s[x])
 	{
 
-		for (j = 0; j < sspdr; j++)
-		{
-			if ((i == 0 || s[i - 1] == p[j]) && (s[i] >= 97 && s[i] <= 122))
-				s[i] -= 32;
+	for (; y < sep;)
+	{
+	if ((x == 0 || s[x - 1] == carac[y]) && (s[x] >= 'a' && s[x] <= 'z'))
+		s[x] -= 32;
+		y++;
+	}
 
-			j++;
-		}
-
-		i++;
+		x++;
 	}
 
 	return (s);
