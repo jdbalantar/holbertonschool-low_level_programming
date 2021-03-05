@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * *cap_string - Write a function that capitalizes all words of a string.
- * @s:Pointer parameter
+ * @s:external input
  * Return:char
  */
 char *cap_string(char *s)
