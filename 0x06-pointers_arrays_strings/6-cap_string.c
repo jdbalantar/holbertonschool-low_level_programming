@@ -14,7 +14,7 @@ char carac[] = {' ', '\t', '\n', ',', ';', '.', '!',
 	while (s[x])
 	{
 
-	for (; y < sep;)
+	while (y < sep)
 	{
 	if ((x == 0 || s[x - 1] == carac[y]) && (s[x] >= 'a' && s[x] <= 'z'))
 		s[x] -= 32;
