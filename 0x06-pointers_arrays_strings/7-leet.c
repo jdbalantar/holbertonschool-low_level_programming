@@ -1,4 +1,4 @@
-B#include "holberton.h"
+#include "holberton.h"
 /**
  * *leet - Write a function that encodes a string into 1337.
  * @s:external input
@@ -7,7 +7,7 @@ B#include "holberton.h"
 
 char *leet(char *s)
 {
-	int s, y;
+	int x, y;
 	char cav[] = "aAeEoOtTlL";
 	char can[] = "4433007711";
 
