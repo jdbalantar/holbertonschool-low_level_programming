@@ -30,10 +30,10 @@ int _sqrt(int i, int n)
 	if (x > n)
 	{
 		return (-1);
-	}
+}
 	if (x == n)
 	{
-		return (x);
+		return (i);
 	}
-	return (_sqrt(x + 1, n));
+	return (_sqrt(i + 1, n));
 }
